@@ -1,11 +1,14 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <home />
+  </div>
 </template>
 
 <script>
+import Home from "./views/Home";
 export default {
   name: "App",
-  components: {},
+  components: { Home },
 };
 </script>
 
@@ -43,6 +46,7 @@ aside {
 html,
 body {
   font-family: "Gilroy", sans-serif;
+  color: #000;
   width: 100%;
   height: 100%;
   font-size: 14px;
