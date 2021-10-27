@@ -121,6 +121,10 @@ export default {
         color: #fff;
         background: #00868a;
         padding: 13px 15px 13px 51px;
+        transition: 0.35s ease;
+        &:hover {
+          background: #4fbfa5;
+        }
         .cos-header-content__eye-img {
           position: absolute;
           width: 26px;
