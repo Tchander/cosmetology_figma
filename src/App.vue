@@ -47,6 +47,7 @@ html,
 body {
   font-family: "Gilroy", sans-serif;
   color: #000;
+  background: #fff;
   width: 100%;
   height: 100%;
   font-size: 14px;

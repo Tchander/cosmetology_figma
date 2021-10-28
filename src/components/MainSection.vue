@@ -205,6 +205,7 @@ export default {
       width: 50%;
       padding: 24px 0;
       text-align: center;
+      transition: 0.35s ease;
       &:hover {
         background: #fff;
         .cos-main-footer-procedures__link {
@@ -220,6 +221,7 @@ export default {
       width: 25%;
       padding: 24px 0;
       text-align: center;
+      transition: 0.35s ease;
       &:hover {
         background: #fff;
         .cos-main-footer-learning__link {
