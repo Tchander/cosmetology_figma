@@ -3,6 +3,7 @@
     <header-section />
     <main-section />
     <info-section />
+    <news-section />
   </div>
 </template>
 
@@ -10,8 +11,9 @@
 import HeaderSection from "@/components/HeaderSection";
 import MainSection from "@/components/MainSection";
 import InfoSection from "@/components/InfoSection";
+import NewsSection from "@/components/NewsSection";
 export default {
   name: "Home",
-  components: { InfoSection, MainSection, HeaderSection },
+  components: { NewsSection, InfoSection, MainSection, HeaderSection },
 };
 </script>

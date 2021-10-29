@@ -111,6 +111,7 @@ export default {
       }
       .cos-info-innovations-content-more {
         display: flex;
+        cursor: pointer;
         .cos-info-innovations-more-content__arrow-right {
           display: flex;
           align-items: center;
