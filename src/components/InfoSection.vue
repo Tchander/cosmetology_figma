@@ -13,7 +13,7 @@
               Мы практикуем новый курс процедур аппаратной косметологии
             </div>
             <div class="cos-info-innovations-content-more">
-              <div class="cos-info-innovations-more-content__arrow-right">
+              <div class="cos-info-innovations-content-more__arrow-right">
                 <img src="../assets/images/info/arrow-right.png" alt="arrow" />
               </div>
               <a href="#" class="cos-info-innovations-content-more__link"
@@ -112,7 +112,7 @@ export default {
       .cos-info-innovations-content-more {
         display: flex;
         cursor: pointer;
-        .cos-info-innovations-more-content__arrow-right {
+        .cos-info-innovations-content-more__arrow-right {
           display: flex;
           align-items: center;
           border: 1px solid #fff;
