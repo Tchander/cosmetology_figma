@@ -110,7 +110,8 @@ export default {
 .cos-actual {
   background: #e5f3f3;
   padding-top: 80px;
-  height: 350px;
+  height: 320px;
+  margin-bottom: 350px;
   .cos-actual-title {
     font-weight: 700;
     font-size: 48px;
@@ -122,7 +123,7 @@ export default {
   .cos-actual-cards {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 100px;
+    flex-wrap: wrap;
     .cos-actual-cards__item {
       width: 100%;
       max-width: 306px;

@@ -5,6 +5,7 @@
     <info-section />
     <news-section />
     <actual-section />
+    <contacts-section />
   </div>
 </template>
 
@@ -14,9 +15,11 @@ import MainSection from "@/components/MainSection";
 import InfoSection from "@/components/InfoSection";
 import NewsSection from "@/components/NewsSection";
 import ActualSection from "@/components/ActualSection";
+import ContactsSection from "@/components/ContactsSection";
 export default {
   name: "Home",
   components: {
+    ContactsSection,
     ActualSection,
     NewsSection,
     InfoSection,
