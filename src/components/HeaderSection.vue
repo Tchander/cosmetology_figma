@@ -24,14 +24,7 @@
           />
         </li>
         <li class="cos-header-content__eye">
-          <button class="cos-header-content__eye-button">
-            Версия для слабовидящих
-            <img
-              src="../assets/images/header/eye.png"
-              alt="eye"
-              class="cos-header-content__eye-img"
-            />
-          </button>
+          <eye-button />
         </li>
         <li class="cos-header-content__icon">
           <a href="#">
@@ -59,8 +52,10 @@
 </template>
 
 <script>
+import EyeButton from "@/components/EyeButton";
 export default {
   name: "HeaderSection",
+  components: { EyeButton },
 };
 </script>
 
@@ -112,26 +107,6 @@ export default {
     }
     .cos-header-content__eye {
       width: 25.56%;
-      .cos-header-content__eye-button {
-        position: relative;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        text-transform: uppercase;
-        color: #fff;
-        background: #00868a;
-        padding: 13px 15px 13px 51px;
-        transition: 0.35s ease;
-        &:hover {
-          background: #4fbfa5;
-        }
-        .cos-header-content__eye-img {
-          position: absolute;
-          width: 26px;
-          top: 9px;
-          left: 14px;
-        }
-      }
     }
     .cos-header-content__icon {
       width: 6.1776%;
